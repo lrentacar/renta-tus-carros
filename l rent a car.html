@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>L Rent A Car | Nicaragua, renta tus carros facil y seguro con L Rent A Car</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="Lrnt.ico.ico">
+    <meta name="description" content="Renta tus carros con L rent a car Facil, Rapido, Seguro y Economico.">
+    <meta name="google-site-verification" content="-dFhYGDDPXG0qjPipdGUwPRtFqfcdl8QulxnIW0jjHE" />
+   
+
+  
+  
+  <style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+    font-size: 16px;
+   
+}
+
+
+header {
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(https://www.mitsuiautomotriz.com/Nueva%20Toyota%20Hilux.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: yellow   ;
+    text-align: center;
+    font-family: sans-serif;
+    
+    
+}
+
+header .textos {
+    margin-top: 90px;
+    border-bottom: black 2x solid;
+   float: left;
+   padding: 20px;
+    
+}
+
+header .titulo {
+    font-size: 85px;
+    
+}
+
+header .subtitulo {
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+header .boton {
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+}
+
+.sesgoabajo {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    
+    ;
+}
+
+.sesgoarriba {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 35vh 100vw 0 0;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+   
+}
+
+/* Main */
+
+.sobre-nosotros {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: sans-serif;
+    
+}
+
+.slogan {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.parrafo {
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.acerca-de .boton {
+    display: inline-block;
+    padding: 6px;
+    width: 128px;
+    font-weight: 300;
+    border: 1px solid rgba(24, 16, 16, .7);
+    color: rgb(24, 16, 16);
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+
+.acerca-de{
+
+ background-color: yellow ;
+
+
+}
+
+.galeria {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.imagenes {
+    width: 10%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imagenes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.encima {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(52, 73, 94, 0.815);
+}
+
+.encima h2 {
+    position: relative;
+    top: 45%;
+    text-align: center;
+    color: #fff;
+}
+
+.encima div {
+    position: relative;
+    display: block;
+    top: 46%;
+    width: 40px;
+    height: 5px;
+    background: #fff;
+    margin: auto;
+}
+
+.cards {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 20px 0;
+    width: 30%;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+   font-family: sans-serif;
+    color: yellow;
+    box-shadow: 2px 2px 2px 2px yellow;
+    border-radius: 10px;
+
+
+}
+
+
+
+.cards img {
+    width: 248px;
+    height: 140px;
+    object-fit: cover;
+    
+}
+
+.fondo {
+    height: 900px;
+    position: relative;
+    background-image: url(fondo.png);
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 130px;
+}
+
+.sesgoabajo-unico {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #2c3e50 transparent;
+}
+
+.titulo-patrocinadores,
+.subtitulo-patrocinadores {
+    color: #fff;
+    text-align: center;
+}
+
+.titulo-patrocinadores {
+    font-size: 56px;
+    margin-top: 48px;
+}
+
+.subtitulo-patrocinadores {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 64px;
+}
+
+.clientes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cliente {
+    width: 30%;
+}
+
+.cliente img {
+    width: 100%;
+}
+
+/* Footer */
+
+footer {
+    background: black;
+    height: auto;
+}
+
+.titulo-footer,
+.subtitulo-footer {
+    color: yellow;
+    text-align: center;
+    font-weight: 400;
+    font-size: 56px;
+    font-family: sans-serif;
+}
+
+.subtitulo-footer {
+    font-size: 16px;
+    margin-bottom: 64px;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"] {
+    display: inline-block;
+    width: 48%;
+    padding: 13px;
+    border: none;
+    color: yellow;
+    font-family: sans-serif;
+    background: rgba(37, 37, 33, .7);
+    margin-bottom: 16px;
+    border-top: 5px solid rgba(37, 37, 33, .7);
+    font-size: 1.3em;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-top: 5px solid yellow;
+    outline: none;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    background: rgba(37, 37, 33, .7);
+    padding: 13px;
+    border: none;
+    color: yellow;
+    font-family: 'open sans';
+    margin-bottom: 16px;
+    font-family: sans-serif;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    padding: 13px;
+    border: none;
+    color: yellow;
+    background: rgba(37, 37, 33, .7);
+    width: 96px;
+}
+
+/* Responsive */
+
+@media screen and (max-width:900px) {
+    .card {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:610px) {
+    header .textos {
+        margin-top: 130px;
+    }
+    header .titulo {
+        font-size: 75px;
+    }
+    .none {
+        display: none
+    }
+    .imagenes {
+        flex-grow: 1;
+    }
+    .card {
+        width: 90%;
+    }
+    .fondo {
+        height: auto;
+    }
+    .especial {
+        display: none;
+    }
+    .cliente {
+        width: 90%;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    header .textos {
+        margin-top: 100px;
+    }
+    header .titulo {
+        font-size: 65px;
+    }
+    header .subtitulo {
+        font-size: 25px;
+        margin-bottom: 32px;
+    }
+    .sobre-nosotros {
+        font-size: 46px;
+    }
+    .slogan {
+        font-size: 20px;
+    }
+    .titulo-patrocinadores {
+        font-size: 46px;
+    }
+    .subtitulo-patrocinadores {
+        font-size: 20px;
+    }
+}
+
+
+.textos img{
+
+ border-radius: 9px;
+ box-shadow: 3px 2px 4px yellow;
+ max-width: 100%;
+ height: 40px;
+ 
+
+}
+
+.textos h2{
+
+ margin-top: 50px;
+
+
+}
+
+.buttons{
+
+margin-top: 60px;
+height: 40px;
+background-color: yellow;
+border-radius: 3px;
+border: none;
+outline: none;
+width: 50%;
+
+}
+
+
+.video-1{
+  margin-top: 30px;
+ max-width: 100%;
+
+display: block;
+border-radius: 10px;
+width: 300%;
+height: 250px;
+
+
+}
+
+.miembros{
+
+background: black;
+
+
+}
+
+
+.img-2{
+
+    height: 60px;
+float: right;
+margin-top:  300px ;
+
+}
+
+
+.hola-mundo i{
+
+ margin-top: 50px;
+ font-size: 2.5em;
+ color: yellow;
+
+}
+
+
+
+
+.www-1{
+
+
+height: 700px;
+font-size: 35px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.video-45{
+
+    margin: auto;
+height: 40%;
+width: 40%;
+ display: block;
+margin-bottom: 10px;
+border-radius: 10px;
+
+
+
+
+}
+
+@media screen and (max-width:900px) {
+    .video-45 {
+        width: 100%;
+        height: 350px;
+         margin-top: 15px;
+    }
+
+}
+    
+@media screen and (max-width:768px) {
+    .video-45 {
+        width: 100%;
+        height: 300px;
+    }
+
+}
+    
+  
+.boton-1{
+
+    display: inline-block;
+    padding: 13px;
+    border: none;
+    color: yellow;
+    background: rgba(37, 37, 33, .7);
+    width: 120px;
+
+}
+
+
+.slide-contenedor{
+    max-width:100%;
+    max-height: 100vh;
+    width: 50%;
+    height:auto;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    
+}
+
+@media screen and (max-width:900px) {
+    .slide-contenedor {
+        width: 100%;
+        height: 400px;
+    }
+
+}
+
+
+
+ 
+
+.miSlider img{
+    width: 100%;
+    max-height: 100vh;
+    height: inherit;
+    object-fit: cover;
+    vertical-align: top;
+    transition: 2s;
+    max-width: 100%;
+}
+
+
+
+.direcciones{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.direcciones a{
+    color: yellow;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.direcciones a:hover{
+    
+    transition: .5s;
+    background: gray
+}
+
+.barras{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom:15px;
+}
+
+.barra{
+    cursor: pointer;
+    height:2px;
+    width: 25px;
+    margin: 0 2px;
+    background: #dcdde1;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.active{
+    background-color: yellow;
+    
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;    
+}
+
+@keyframes fade {
+    from {opacity: .4;}
+    to{opacity:1;}
+}
+
+.hola-1{
+
+background-color: black;
+color: yellow;
+height: 500px;
+
+
+
+
+}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+ 
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.div-imagen {
+  display:inline-block;
+  position:relative;
+}
+
+.div-imagen > div {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+  padding:10px;
+  margin:0;
+
+}
+
+.desvanecer:hover {
+  opacity: 0.07;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+
+.zoom{
+        /* Aumentamos la anchura y altura durante 2 segundos */
+        transition: width 2s, height 2s, transform 2s;
+    }
+    .zoom:hover{
+        /* tranformamos el elemento al pasar el mouse por encima al doble de
+           su tamaño con scale(2). */
+        transform : scale(2);
+    }
+
+
+    .hola-1 img{
+
+    height: 250px;
+    margin-top: 100px;
+    overflow:hidden;
+    max-width: 100%;
+}
+
+
+.hola-1 img:hover{
+
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+     
+}
+
+
+@media screen and (max-width:900px) {
+    .hola-1 img {
+        margin-bottom: 10px;
+        display: block;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .hola-1  {
+       height: 1200px;
+        display: block;
+    
+    }
+}
+
+
+.video-class{
+
+ width: 40%;
+height: 280px;
+border-radius: 10px;
+}
+
+
+@media screen and (max-width:900px) {
+
+  .video-class{
+
+   height: 250px;
+   margin-top: -70px;
+   width: 100%;
+  }
+    
+}
+
+
+.ubicacion-1{
+
+background-color: yellow;
+width: 100%;
+height: 355px;
+color: black;
+
+}
+
+
+.mapa-1{
+
+margin-top: 10px;
+border-radius: 9px;
+margin: auto;
+padding: 10px;
+max-width: 100%;
+
+}
+
+
+.ubicacion-1 h4{
+
+ text-align: center;
+ margin-top: 0px;
+ font-size: 36px;
+
+}
+
+
+.avion-1{
+
+
+background-color: yellow;
+width: 100%;
+height: 450px;
+
+
+}
+
+
+
+.avion-1 img{
+
+margin-top: 50px;
+padding: 10px;
+border-radius: 15px;
+max-width: 100%;
+
+
+}
+
+
+.avion-1 img:hover{
+
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+
+
+}
+
+@media screen and (max-width:575px) {
+    .avion-1  {
+       height: 920px;
+        
+    
+    }
+}
+
+@media screen and (max-width:575px) {
+    .ubicacion-1  {
+       height: 385px;
+        
+    
+    }
+}
+
+.navbar-toggler-icon{
+
+color: yellow;
+
+
+
+}
+
+.menu-1{
+
+background-color: black;
+height: 55px;
+
+
+
+}
+
+nav > a{
+
+float: left;
+margin-left: 10px;
+padding: 20px;
+text-decoration: none;
+font-family: sans-serif;
+color: yellow;
+
+
+}
+
+@media(max-width:600px){
+
+
+.img-80{
+
+margin-top: -30px;
+
+
+}
+
+
+
+
+}
+
+
+.img-80{
+
+    width: 50%; 
+    padding: 70px; 
+    margin-top: 60px;
+
+
+
+}
+
+
+@media(max-width:1024px){
+
+
+.img-80{
+
+margin-top: -270px;
+float: right;
+
+
+
+}
+
+
+
+
+}
+
+@media(max-width:600px){
+
+
+.buttons{
+
+margin-top: 50px;
+
+
+
+}
+
+
+
+
+}
+
+
+@media(max-width:640px){
+
+
+.img-80{
+
+margin-top: -10px;
+width: 110%;
+
+
+
+}
+
+
+
+
+}
+
+
+@media(max-width:640px){
+
+
+header{
+
+height : 800px ;
+
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+  </style>
+<script src="https://kit.fontawesome.com/5327f93048.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="textos">
+            <h1 style="font-size: 46px; text-shadow: 3px 3px 1px black;">L Rent A Car</h1>
+            
+          
+            
+            <h2>¡los mejores en renta de vehiculo!</h2>
+             
+             
+          
+
+             <a href="tel:+50584697474"><button class="buttons" style="cursor: pointer;"><i class="fas fa-phone-alt" aria-hidden="true"></i> ¡Llama Ya!</button></a>
+           
+             <section class="hola-mundo">
+
+                <a href="https://www.facebook.com/L-Rent-A-Car-623415077861517"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=50584697474&amp;app=facebook&amp;entry_point=page_cta&amp;fbclid=IwAR2KtQG_oAFq1aQfJWqsDlBjwsaJU-bzjX1Qs1HrX4jbMHgrr8P3kn0ASxU"><i class="fab fa-whatsapp-square" aria-hidden="true"></i></a>
+
+              
+            
+            </section>
+            
+           
+            </div>
+
+           
+        <center><img src="https://rentacarexpressnicaragua.com/wp-content/uploads/2020/01/Rentacar-Nicaragua-Toyota-corolla-2017.png" alt=""  class="img-80"></center>
+        
+            <div class="sesgoabajo"></div>
+    </header>
+    <main>
+        
+        <section class="hola-1">
+
+            <h2 style="font-family: sans-serif; color: yellow; text-align: center; font-size: 45px;">Variedad de vehiculos.</h2>
+            <center><img src="https://www.pngkey.com/png/full/364-3643879_best-cng-cars-in-india-maruti-suzuki-alto.png" alt="">
+                    
+                <img src="https://rentacarexpressnicaragua.com/wp-content/uploads/2020/01/Rentacar-Nicaragua-Toyota-corolla-2017.png" alt="">
+            <img src="https://assets.gcs.ehi.com/content/alamo/data/vehicle/bookingCountries/CL/VANS/FVMR.doi.352.medium.imageSmallSideProfileNodePath.png/1492744287999.png" alt=""></center>
+        
+        </section>
+            
+        
+        <section class="acerca-de">
+            <div class="contenedor">
+                <h2 class="sobre-nosotros">¿Quienes Somos?</h2>
+                
+                <p class="parrafo"><i class="fas fa-car"></i> L Rent A Car se fundo en octubre del 2013, desde la fecha
+                    L Rent A Car lleva 8 años en la industria de la renta de carros en Nicaragua,  L Rent A Car atiende
+                    a sus clientes con la mayor y la mejor amabilidad y cortesia. 
+                </p>
+                <p class="parrafo"><i class="fas fa-exclamation-circle"></i> Nuestro protocolo ante el Covid-19 es:
+                    al llegar a nuestras oficinas se le realiza un protocolo de alcohol en las manos
+                    y cuaternario en los pies si no anda mascarilla nosotros le proporcionamos una,
+                    Despues que los carros han sido desocupados los satinizamos con amonio cuaternario de quinta generacion, sus puertas y
+                    sus asientos.
+
+                </p>
+                
+            </div>
+            
+</section>
+        
+        <section class="miembros">
+            <div class="contenedor">
+                <h2 class="sobre-nosotros" style="color: yellow;">Nuestros Vehiculos</h2>
+               
+                <div class="cards">
+                    <div class="card">
+                        <img src="https://www.pngkey.com/png/full/364-3643879_best-cng-cars-in-india-maruti-suzuki-alto.png" alt="">
+                        <h2>Suzuki Alto.</h2>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="https://s3.amazonaws.com/online.storage/TNRNTACR/Resources/f3ecef98-084a-47b3-8b06-32056d281639.png" alt="" >
+                        <h2>Toyota Hilux</h2>
+                        
+                    </div>
+                    
+                    <div class="card">
+                        <img src="https://assets.gcs.ehi.com/content/alamo/data/vehicle/bookingCountries/NI/CARS/ECMR.doi.352.medium.imageSmallSideProfileNodePath.png/1595341816982.png" alt="" >
+                        <h2>Suzuki Swift</h2>
+                        
+                    </div>
+
+                    <div class="card">
+                        <img src="https://rentacarexpressnicaragua.com/wp-content/uploads/2020/01/Rentacar-Nicaragua-Toyota-corolla-2017.png">
+                        <h2>Toyota Corolla</h2>
+                       
+                    </div>
+                    
+                    <div class="card">
+                        <img src="https://sx-content-labs.sixt.io/Media/8fleet-1050x600/hyundai-santa-fe-5d-braun-2018.png">
+                        <h2>Hyundai Santa Fe</h2>
+                        
+                    </div>
+                    
+                    <div class="card">
+                        <img src="https://assets.gcs.ehi.com/content/alamo/data/vehicle/bookingCountries/CL/VANS/FVMR.doi.352.medium.imageSmallSideProfileNodePath.png/1492744287999.png" alt="">
+                        <h2>Hyundai H1</h2>
+                        
+                    </div>
+                    
+                
+                </div>
+                </div>
+            </div>
+        </section>
+        
+       <section class="www-1" style="background-color: yellow;">
+
+          <h1 style="color: black; text-align: center; font-family: sans-serif;">Conozca mas de nosotros</h1> 
+
+         <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F623415077861517%2Fvideos%2F239557577645820%2F&show_text=false&width=560&t=0"  style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true" class="video-45" height="55px"></iframe>
+          <div class="video-11"></div>
+         <center><iframe  src="https://www.youtube.com/embed/gicclYXUWwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" class="video-class"></iframe></center>
+        </div>
+    
+    </section>
+    
+    
+    </main>
+    <footer>
+        <div class="contenedor">
+            <h2 class="titulo-footer">Contactanos</h2>
+            <p><h3 class="subtitulo-footer">8937-8808 | 8469-7474</h3></p>
+            
+            <div class="footer">
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Nombre">
+                    <input type="email" name="" id="" placeholder="Email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su mensaje..."></textarea>
+                    <input type="submit" value="Enviar">
+                    <section>
+
+                        <button class="boton-1" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSf4Lz4JrezY8hGrsD8nlEmsffjUhINwpk7_TIML-Bu2XbPzdg/viewform')"><i class="fas fa-clipboard-list"></i> Otro Form</button>
+
+                       
+                    </section>
+                   
+                  
+                </form>
+
+               
+            </div>
+        </div>
+    </footer>
+    
+   
+    
+    
+    
+    
+    <section class="ubicacion-1" >
+      
+         <h4 style="font-family: sans-serif; "><i class="fas fa-map-marker-alt"></i> Ubicacion</h4>           
+         <h5 style="font-family: sans-serif; text-align: center;">Semaforos de Linda Vista 20vrs al NORTE 20vrs al ESTE.</h5>
+         <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124839.45599473287!2d-86.32850129894587!3d12.096195278122993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f71575ea9105723%3A0xb4a6297a8897d154!2sL%20Rent%20a%20Car!5e0!3m2!1ses!2sni!4v1625852552660!5m2!1ses!2sni" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="mapa-1"></iframe></center>
+        <h5 style="font-family: sans-serif; text-align: center; ">Todos los Derechos Reservados © | L Rent A Car | Nicaragua.</h5>
+     
+
+    </section>
+   
+</body>
+
+</html>
